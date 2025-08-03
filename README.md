@@ -1,21 +1,43 @@
-# raktsathi
-for frontend
+# Raktsathi – Blood Donation Management System
 
-  cd client
+**Raktsathi** is a full-stack web application built to manage blood donation processes, camps, and banks.
 
-  npm install
+## 🌟 Features
+- 🔐 User & Admin Authentication (JWT)
+- 🏥 Blood Bank & Donation Camp Management
+- 🩸 Donor Registration & Search
+- 💡 Intuitive & Responsive UI (React + Tailwind CSS)
+- 📦 RESTful API with Node.js & Express
 
-  npm run start
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JWT
 
-for backend
+## 🚀 Setup Instructions
 
-  cd backend 
+### 🔧 Backend:
+```bash
+cd backend
+npm install
+node app.js
+```
 
-  create a .env file with
-     CONNECT = your mongo url
-     JWT_SECRET = your secret key
+### 💻 Frontend:
+```bash
+cd client
+npm install
+npm start
+```
 
-  npm install
+## 📁 Project Structure
+```
+raktsathi/
+├── backend/     # Express API
+└── client/      # React frontend
+```
 
-  npm run dev
-  
+---
+
+> Made with ❤️ to streamline blood donation efforts.
+
